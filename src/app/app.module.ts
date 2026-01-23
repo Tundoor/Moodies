@@ -8,16 +8,18 @@ import { EntryModalComponent } from './entry-modal/entry-modal.component';
 import { RegisterPgComponent } from './register-pg/register-pg.component';
 import { LoginPgComponent } from './login-pg/login-pg.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { ShowEntryComponent } from './show-entry/show-entry.component';
 
 @NgModule({
-  declarations: [
+  declarations: [	
     AppComponent,
     HomePgComponent,
     EntryModalComponent,
     RegisterPgComponent,
     LoginPgComponent,
-    NavbarComponent
-  ],
+    NavbarComponent,
+      ShowEntryComponent
+   ],
   imports: [
     BrowserModule,
     AppRoutingModule
