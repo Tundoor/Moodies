@@ -27,3 +27,19 @@
 .mood h1:hover {
     font-size: 7.5rem;
 }
+
+.showMoreBtn {
+    background-color: #A91E1E;
+    padding: 15px;
+    width: 200px;
+    font-size: 1.5rem;
+    border-radius: 50px;
+    border-style: none;
+    color: white;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.showMoreBtn:hover {
+    background-color: #430b0b;
+}
