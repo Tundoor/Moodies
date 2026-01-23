@@ -1,0 +1,30 @@
+.nav-div{ 
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    align-items: center;
+    position: sticky;
+    background-color: transparent;
+}
+
+.logo-div {
+    display: flex;
+    align-items: center;
+    font-family: var(--font-family-titles), 'Courier New', Courier, monospace;
+    cursor: pointer;
+}
+
+.logo-div img {
+    width: 80px;
+}
+
+.logout {
+    font-family: var(--font-family-titles), 'Courier New', Courier, monospace;
+    cursor: pointer;
+}
+
+.logout:hover {
+    color: #A91E1E;
+    font-size: 2.3rem;
+    text-decoration: underline;
+}

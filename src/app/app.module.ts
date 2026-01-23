@@ -7,7 +7,6 @@ import { HomePgComponent } from './home-pg/home-pg.component';
 import { EntryModalComponent } from './entry-modal/entry-modal.component';
 import { RegisterPgComponent } from './register-pg/register-pg.component';
 import { LoginPgComponent } from './login-pg/login-pg.component';
-import { SingleEntryComponent } from './single-entry/single-entry.component';
 import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
@@ -17,7 +16,6 @@ import { NavbarComponent } from './navbar/navbar.component';
     EntryModalComponent,
     RegisterPgComponent,
     LoginPgComponent,
-    SingleEntryComponent,
     NavbarComponent
   ],
   imports: [
