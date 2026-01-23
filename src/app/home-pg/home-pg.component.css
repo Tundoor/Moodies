@@ -1,0 +1,29 @@
+.entry {
+    display: grid;
+    place-items: center;
+}
+
+.mood-entry {
+    text-align: center;
+    font-family: var(--font-family-subtitle);
+}
+.moods { 
+    display: flex;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 100px;
+}
+
+.mood {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.mood h1{
+    font-size: 6rem;
+    cursor: pointer;
+}
+
+.mood h1:hover {
+    font-size: 7.5rem;
+}
