@@ -1,8 +1,24 @@
 <div class="overlay"></div>
 <div class="entry-modal">
-    <button class="close-btn">X</button>
-<form class="entry-form">
-   <input class="title" placeholder="Title" type="text">
-   <textarea class="text" placeholder="Write about your mood..." type="text"></textarea>
-</form>
+    <div class="close-btn-div">
+        <button class="close-btn">X</button>
+    </div>
+    <form class="entry-form">
+        <!-- Add Title -->
+        <div class="add-title">
+            <label>Title</label>
+            <input class="title" placeholder="This is a title" type="text" maxlength="100">
+        </div>
+
+        <!-- Add Entry -->
+        <div class="add-entry">
+            <label>Entry</label>
+            <textarea class="text" placeholder="Write about your mood..." type="text"></textarea>
+        </div>
+    </form>
+     <!-- Buttons -->
+        <div class="action-btns">
+        <button class="save action-btn">Save</button>
+        <button class="delete action-btn">Cancel</button>
+        </div>
 </div>
