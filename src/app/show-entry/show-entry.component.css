@@ -1,4 +1,68 @@
 .entry-btn {
    display: flex;
    justify-content: flex-end;
+   
+}
+
+.add-entry-btn {
+   background-color: #A91E1E;
+    padding: 15px;
+    width: 200px;
+    font-size: 1.5rem;
+    border-radius: 50px;
+    border-style: none;
+    color: white;
+    margin-top: 40px;
+    margin-right: 50px;
+    margin-bottom: 40px;
+    cursor: pointer;
+    transition: background-color 0.1s ease;
+}
+
+.add-entry-btn:hover {
+    background-color: #430b0b;
+}
+
+.single-entry-div {
+    margin: 1.5rem 3rem 0;
+    padding-bottom: 3rem;
+    border-top-style: solid;
+    border-color: #A91E1E;
+    padding-top: 50px;
+}
+
+.entry-header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-bottom: 25px;
+}
+
+.date {
+   font-size: 1.5rem;
+   color: #00000031;
+}
+
+.mood-entry {
+   font-size: 3rem;
+}
+
+.text {
+   font-size: 1.5rem;
+}
+.entry-buttons {
+   display: flex;
+   justify-content: flex-end;
+}
+
+.entry-buttons button {
+   background-color: #A91E1E;
+    padding: 10px;
+    width: 100px;
+    font-size: 1.5rem;
+    border-style: none;
+    color: white;
+    margin-top: 20px;
+    margin-left: 15px;
+    transition: background-color 0.1s ease;
 }
