@@ -8,6 +8,7 @@ import { RegisterPgComponent } from './register-pg/register-pg.component';
 import { LoginPgComponent } from './login-pg/login-pg.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { ShowEntryComponent } from './show-entry/show-entry.component';
+import { LandingPageComponent } from './landing-page/landing-page.component';
 
 @NgModule({
   declarations: [	
@@ -17,7 +18,8 @@ import { ShowEntryComponent } from './show-entry/show-entry.component';
     RegisterPgComponent,
     LoginPgComponent,
     NavbarComponent,
-      ShowEntryComponent
+      ShowEntryComponent,
+      LandingPageComponent
    ],
   imports: [
     BrowserModule,
