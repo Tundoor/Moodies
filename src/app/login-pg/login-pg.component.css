@@ -39,7 +39,7 @@ header h1 {
     font-size: 3rem;
     font-family: var(--font-family-subtitle);
     margin-bottom: 3rem;
-    color: var(--main-red-color);
+    /* color: var(--main-red-color); */
 }
 
 .form-input {

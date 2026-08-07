@@ -3,7 +3,7 @@
     --font-family-titles: 'Galindo';
     --font-family-subtitle: 'Oswald';
     --font-family-subtext: 'Inter';
-    --main-red-color: #A91E1E;
+    --main-red-color: #6495ED;
 }
 
 
@@ -14,7 +14,7 @@
 }
 
 body {
-    background-color: rgb(255, 248, 248);
+    background-color: white;
     min-height: 100vh;
     min-width: 100%
 }

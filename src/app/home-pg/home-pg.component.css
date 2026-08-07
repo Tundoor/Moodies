@@ -30,7 +30,7 @@
 }
 
 .showMoreBtn {
-    background-color: #A91E1E;
+    background-color: var(--main-red-color);
     padding: 15px;
     width: 200px;
     font-size: 1.5rem;
@@ -43,5 +43,8 @@
 }
 
 .showMoreBtn:hover {
-    background-color: #430b0b;
+    background-color: transparent;
+    border-style: solid;
+    border-color: var(--main-red-color);
+    color: var(--main-red-color);
 }
