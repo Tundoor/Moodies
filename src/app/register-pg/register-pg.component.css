@@ -76,6 +76,13 @@ header h1 {
     color: white;
 }
 
+.form-submit-btn button:hover {
+    background-color: transparent;
+    border-style: solid;
+    border-color: var(--main-red-color);
+    color: var(--main-red-color);
+}
+
 .form-register-instead {
     margin-top: 2rem;
 }
