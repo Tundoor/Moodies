@@ -63,6 +63,7 @@ header h1 {
 .form-submit-btn {
     margin-bottom: 0.5rem;
     margin-top: 0.5rem;
+    cursor: pointer;
 }
 
 .form-submit-btn button {
@@ -73,6 +74,13 @@ header h1 {
     border-style: none;
     background-color: var(--main-red-color);
     color: white;
+}
+
+.form-submit-btn button:hover {
+    background-color: transparent;
+    border-style: solid;
+    border-color: var(--main-red-color);
+    color: var(--main-red-color);
 }
 
 .form-register-instead {
