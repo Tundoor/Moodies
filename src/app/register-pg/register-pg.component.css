@@ -3,6 +3,7 @@
     height: 100%;
     padding: 0;
     margin: 0;
+     overflow: hidden;
 }
 
 .login-picture {
@@ -22,8 +23,7 @@
 .login-form {
     margin: 0;
     padding: 90px;
-    background-color: white;
-    opacity: 65%;
+    background-color: rgba(255, 255, 255, 0.65);
     height: 100%;
     right: 0%;
     position: absolute;
@@ -32,6 +32,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 header h1 {
@@ -51,6 +52,7 @@ header h1 {
 .form-input input {
     width: 350px;
     height: 30px;
+    padding: 0.5rem;
 }
 
 .form-input label {
@@ -61,6 +63,7 @@ header h1 {
 .form-submit-btn {
     margin-bottom: 0.5rem;
     margin-top: 0.5rem;
+    cursor: pointer;
 }
 
 .form-submit-btn button {
@@ -84,4 +87,8 @@ header h1 {
 .form-register-instead a {
      color: var(--main-red-color);
      text-decoration: none;
+}
+
+.form-register-instead a:hover {
+    text-decoration: underline;
 }
