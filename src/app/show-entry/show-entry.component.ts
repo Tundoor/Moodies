@@ -1,15 +1,18 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild} from '@angular/core';
+import { EntryModalComponent } from '../entry-modal/entry-modal.component';
 
 @Component({
   selector: 'app-show-entry',
   templateUrl: './show-entry.component.html',
   styleUrls: ['./show-entry.component.css']
 })
-export class ShowEntryComponent implements OnInit {
+export class ShowEntryComponent {
 
-  constructor() { }
+   @ViewChild('modal', { static: false })
+  modal!: EntryModalComponent;
 
-  ngOnInit() {
+  openModal() {
+    this.modal.open();
   }
 
 }

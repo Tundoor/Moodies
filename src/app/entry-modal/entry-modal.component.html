@@ -1,7 +1,8 @@
+<div #myModal>
 <div class="overlay"></div>
 <div class="entry-modal">
     <div class="close-btn-div">
-        <button class="close-btn">X</button>
+        <button class="close-btn" (click)="close()">X</button>
     </div>
     <form class="entry-form">
         <!-- Add Title -->
@@ -19,6 +20,7 @@
      <!-- Buttons -->
         <div class="action-btns">
         <button class="save action-btn">Save</button>
-        <button class="delete action-btn">Cancel</button>
+        <button class="delete action-btn" (click)="close()">Cancel</button>
         </div>
+</div>
 </div>

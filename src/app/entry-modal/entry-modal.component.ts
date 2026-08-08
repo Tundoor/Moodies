@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit, ViewChild, ElementRef } from '@angular/core';
 
 @Component({
   selector: 'app-entry-modal',
@@ -6,5 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./entry-modal.component.css']
 })
 export class EntryModalComponent {
+  @ViewChild('myModal', { static: false })
+  modal!: ElementRef;
 
+  open() {
+    this.modal.nativeElement.style.display = 'block';
+  }
+
+  close() {
+    this.modal.nativeElement.style.display = 'none';
+  }
 }

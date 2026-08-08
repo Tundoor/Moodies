@@ -1,6 +1,6 @@
 <div class="entry-modal">
   <div class="entry-btn">
-    <button class="add-entry-btn">Add Entry</button>
+    <button (click)="openModal()" class="add-entry-btn">Add Entry</button>
   </div>
 
   <div class="entry-div">
@@ -25,3 +25,5 @@
     </div>
     
 </div>
+
+<app-entry-modal #modal></app-entry-modal>
