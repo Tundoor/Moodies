@@ -1,9 +1,20 @@
 .nav-div{ 
     display: flex;
     justify-content: space-between;
-    padding: 50px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 6%;
+    padding-right: 6%;
+    border-bottom: 0.1rem solid var(--main-red-color);
     align-items: center;
-    background-color: transparent;
+    background-color: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 5;
 }
 
 .logo-div {
@@ -17,13 +28,21 @@
     width: 80px;
 }
 
-.logout {
-    font-family: var(--font-family-titles), 'Courier New', Courier, monospace;
-    cursor: pointer;
+.logout-sect {
+    display: flex;
+    align-items: center;
+    gap: 10rem;
 }
 
-.logout:hover {
+.navlink {
+    font-family: var(--font-family-titles);
+    font-weight: 300;
+    font-size: 1.3rem;
+    transition: font-size 0.5s;
+}
+
+.navlink:hover {
     color: var(--main-red-color);
-    font-size: 2.3rem;
+    font-size: 1.4rem;
     text-decoration: underline;
 }
