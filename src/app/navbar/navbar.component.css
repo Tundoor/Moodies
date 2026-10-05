@@ -45,4 +45,5 @@
     color: var(--main-red-color);
     font-size: 1.4rem;
     text-decoration: underline;
+    cursor: pointer;
 }

@@ -3,14 +3,19 @@
     place-items: center;
 }
 
+.modal-header {
+    font-size: 2rem;
+    font-family: var(--font-family-titles);
+}
 .mood-entry {
     text-align: center;
-    font-family: var(--font-family-subtitle);
+    font-family: var(--font-family-titles);
+    font-weight: 200;
 }
 .moods { 
     display: flex;
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 10rem;
     margin-top: 100px;
 }
 
@@ -23,6 +28,11 @@
     font-size: 6rem;
     cursor: pointer;
     transition: font-size 0.2s ease;
+}
+
+.mood h2{ 
+margin-top: 10px;
+  font-weight: 300;
 }
 
 .mood h1:hover {

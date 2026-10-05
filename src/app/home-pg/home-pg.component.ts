@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./home-pg.component.css']
 })
 export class HomePgComponent {
-
+   mood = document.getElementById('')
 }
