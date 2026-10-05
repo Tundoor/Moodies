@@ -9,6 +9,8 @@ import { LoginPgComponent } from './login-pg/login-pg.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { ShowEntryComponent } from './show-entry/show-entry.component';
 import { LandingPageComponent } from './landing-page/landing-page.component';
+import { FooterComponent } from './footer/footer.component';
+import { DisplayPgComponent } from './display-pg/display-pg.component';
 
 @NgModule({
   declarations: [	
@@ -19,7 +21,9 @@ import { LandingPageComponent } from './landing-page/landing-page.component';
     LoginPgComponent,
     NavbarComponent,
       ShowEntryComponent,
-      LandingPageComponent
+      LandingPageComponent,
+      FooterComponent,
+      DisplayPgComponent
    ],
   imports: [
     BrowserModule,
